@@ -20,11 +20,14 @@ body
 {
 
 	padding: 5px;
-	background: #1CA72C;
+	background-position-y: 40em;
+	background-image: url(https://raw.githubusercontent.com/colvegan/colvegan.github.io/master/images/SemanaVegana-1.jpg);
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: #6c6c6c;
+
+	
 }
 
 h1, h2, h3
@@ -55,34 +58,63 @@ p
 strong
 {
 }
-/*
+
 a
 {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	float: center;
 	color: #2C383B;
 }
 
 a:hover
-{
+{	
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	float: center;
 	text-decoration: none;
 }
 
 .container
 {
-	margin: 0px auto;
-	width: 1200px;
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	float: center;
+min-width: 300px;
+max-width: 640px;
+width: 100%;
+text-align: center;
+width: 100%;
+overflow: hidden;
 }
-*/
+
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
 
 	.image
 {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	float: center;
 	display: inline-block;
 }
 
 .image img
 {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	float: center;
 	display: block;
 	width: 100%;
 }
@@ -102,6 +134,11 @@ a:hover
 
 .image-centered
 {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	float: center;
 	display: block;
 	margin: 0 0 2em 0;
 }
@@ -400,9 +437,16 @@ ul.contact li a.icon-rss:before
 /* Logo                                                                          */
 /*********************************************************************************/
 
+.redondo {
+	 
+	/* Agora a mágica */
+	border-radius: 20%;
+ }
+
 	#logo
 	{
-		padding: 5em 0em;
+		top: 50%;
+		left: 50%;
 		text-align: center;
 	}
 	
@@ -445,12 +489,14 @@ ul.contact li a.icon-rss:before
 	
 #menu-wrapper
 {   
-
+	
 min-width: 300px;
 max-width: 640px;
 width: 100%;
+background-color: #1CA72C;
+margin-top: 1em;
 text-align: center;
-background: #1CA72C;
+
 }
 
 #menu
@@ -460,6 +506,8 @@ background: #1CA72C;
 	width: 100%;
 	text-align: center;
 	margin: 0px auto;
+	
+	background-color: #1CA72C;
 }
 
 #menu ul
@@ -574,12 +622,16 @@ background: #1CA72C;
 
 #wrapper
 {
-	background: #FFF;
+		min-width: 300px;
+		max-width: 640px;
+		width: 100%;
+		overflow: hidden;
+		background: #FFF;
 }
 
 #page
 {
-	overflow: hidden;
+	
 	padding: 6em 0em;
 	border-bottom: 2px solid #E3E3E3;
 	text-align: center;
@@ -644,7 +696,7 @@ background: #1CA72C;
 #copyright
 {
 	overflow: hidden;
-	padding: 5em 0em;
+	padding-top: 1em;
 	border-top: 1px solid #1CA72C;
 }
 
@@ -684,19 +736,36 @@ background: #1CA72C;
 
 #featured-wrapper
 {
-	overflow: hidden;
+	overflow: scroll;
 	padding: 3em 30px 3em 30px;
 	background: #FFF;
+	text-align: center;
+	min-width: 300px;
+	max-width: 640px;
+	width: 100%;
+	text-align: center;
+}
+
+#featured-wrapper2
+{
+	overflow: scroll;
+	background: #FFF;
+	text-align: center;
+	min-width: 300px;
+	max-width: 640px;
+	width: 100%;
 	text-align: center;
 }
 
 #featured
 {
+	
 	overflow: hidden;
 }
 
 #featured .major
 {
+	
 	overflow: hidden;
 	margin-bottom: 3em;
 	padding-bottom: 2em;
@@ -746,12 +815,14 @@ background: #1CA72C;
 
 .column1,  .column2,  .column3,  .column4
 {
-	width: 282px;
+	
+	width: 100%;
 }
 
 .column1,  .column2
 {
-	float: left;
+	
+	float: center;
 	margin-right: 24px;
 }
 
@@ -763,6 +834,15 @@ background: #1CA72C;
 .column4
 {
 	float: right;
+}
+
+.coluna
+{    
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	float: center;
 }
 
 
@@ -952,6 +1032,10 @@ background: #1CA72C;
 
 .extra2
 {
+	min-width: 300px;
+	max-width: 640px;
+	width: 10%;
+		overflow: hidden;
 
 }
 
@@ -1052,4 +1136,301 @@ background: #1CA72C;
 #portfolio h2
 {
 	text-align: center;
+}
+
+
+/*********************************************************************************/
+/* Zoom                                                                      */
+/*********************************************************************************/
+	
+
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom a {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover a {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.text-item {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 20px;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+/*********************************************************************************/
+/* Gambiarras                                                         */
+/*********************************************************************************/
+
+.margem-esq{
+	margin-left: 4em;
+}
+.margem-esq2{
+	margin-left: 33%;
+}
+
+.margem-bot{
+	margin-bottom: 2em;
+}
+
+.margem-bot2{
+	margin-bottom: 2em;
+}
+
+.justif{
+	text-align:justify;
+}
+
+.coluna
+{
+	
+	float: left;
+}
+
+#featured-wrapper2
+{
+	
+	overflow: hidden;
+	background: #FFF;
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* centralizar                                                       */
+/*********************************************************************************/
+
+
+.central{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	
+}  
+
+
+  main {
+		min-width: 300px;
+		max-width: 640px;
+		width: 100%;
+		overflow: hidden;
+		background: white;
+	
+  }
+  
+  main div {
+		min-width: 300px;
+		max-width: 640px;
+	
+		
+		overflow: hidden;
+	color: white;
+	
+  }
+  
+  .inline-block-centralizado {
+	text-align: center;
+  }
+  .inline-block-centralizado div {
+	display: inline-block;
+	text-align: left;
+  }
+  
+  .flex-centralizado {
+		min-width: 300px;
+		max-width: 640px;
+		width: 100%;
+		margin-left: 25%;
+		justify-content: center;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.flex-centralizado2 {
+		min-width: 300px;
+		max-width: 640px;
+		width: 10%;
+		display: flex;
+		margin-left: 5em;
+		justify-content: center;
+		overflow: hidden;
+		text-align: center;
+  }
+
+/*********************************************************************************/
+/* efeito foto escrito                                                      */
+/*********************************************************************************/
+
+
+.containerr {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.imagemm {
+	display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.padding-top{
+	padding-top: 3em;
+}
+.padding-bot{
+	padding-bottom: 3em;
+}
+
+
+.textu {
+    color: white;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	
+}
+
+.textu2 {
+    color: white;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	text-shadow: 0.2em 0.5em 0.1em #000,
+		-0.3em 0.1em 0.1em #000,
+		0.4em -0.3em 0.1em #000;
+}
+
+
+.textu3 {
+    color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+
+	
+}
+
+.textu4 {
+    color: white;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	text-shadow: 0.2em 0.5em 0.1em #000,
+		-0.3em 0.1em 0.1em #000,
+		0.4em -0.3em 0.1em #000;
+}
+
+.marcatexto {
+	box-shadow: 15px 0 0 0 #1CA72C, -5px 0 0 0 #1CA72C;
+	background: #1CA72C;
+	display: inline;
+	padding: 5px 0 !important;
+	position: relative;
+}
+.overlayFade{
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-color: #ff946bbd;
+}
+.overlay {
+	position: absolute;
+	
+    opacity: 0;
+    transition:all .3s ease;
+    
+}
+.containerr:hover .overlay,.containerr:hover .overlayFade {
+	opacity: 1;
+	
+}
+
+.overlayLeft{
+    height: 100%;
+    width:0;
+    top:0;
+    left:0;
+    background-color: #00b1ba;
+}
+.overlayRight{
+    height: 100%;
+    width: 0;
+    top:0;
+    right:0;
+    background-color: #12888e;
+}
+.containerr:hover .overlayLeft ,.containerr:hover .overlayRight {
+    width: 100%;
+}
+.overlayTop{
+    width: 100%;
+    height: 0;
+    top:0;
+    left:0;
+    background-color: #d63c58;
+}
+.overlayBottom{
+    width: 100%;
+    height: 0;
+    bottom:0;
+    left:0;
+    background-color: #941e33;
+}
+.containerr:hover .overlayTop ,.containerr:hover .overlayBottom {
+    height: 100%;
+}
+.overlayCross{
+    width: 0%;
+    height: 0;
+    top:0;
+    left:0;
+    background-color: #e47a52;
+}
+.containerr:hover .overlayCross {
+    height: 100%;
+    width: 100%;
 }
