@@ -1239,7 +1239,11 @@ text-align: center;
 	text-align: center;
 	
 }  
-
+.largura{
+	margin-left: 25%;
+	text-align: center;
+	
+}
 
   main {
 		min-width: 300px;

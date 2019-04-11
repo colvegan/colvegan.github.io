@@ -1170,6 +1170,12 @@ ul.contact li a.icon-rss:before
 	
 }  
 
+.largura{
+	width: 30%;
+	text-align: center;
+	margin-left: 35%;
+}
+
 
   main {
 	background: white;
