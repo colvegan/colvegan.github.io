@@ -1162,8 +1162,8 @@ ul.contact li a.icon-rss:before
 }
 
 .padding{
-	padding-bottom: 10em;
-	padding-top: 10em;
+	padding-top: 1em;
+	padding-right: 2px;
 }
 
 .margem-bot{
@@ -1172,6 +1172,10 @@ ul.contact li a.icon-rss:before
 
 .justif{
 	text-align:justify;
+}
+
+.esp_baix{
+	margin-bottom: 4em;
 }
 
 /*********************************************************************************/
