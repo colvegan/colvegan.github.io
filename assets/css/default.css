@@ -593,7 +593,7 @@ ul.contact li a.icon-rss:before
 
 /* Wrapper */
 .wrapper {
-	padding: 8rem 0 6rem 0 ;
+	padding: 4rem 0 1rem 0 ;
 	position: relative;
 	z-index: 1; }
 	@media screen and (max-width: 1280px) {
@@ -1154,7 +1154,7 @@ ul.contact li a.icon-rss:before
 	margin-left: 4em;
 }
 .margem-esq10{
-	margin-left: 10em;
+	margin-left: 15%;
 }
 
 .margem-top{
@@ -1175,6 +1175,13 @@ ul.contact li a.icon-rss:before
 }
 
 .esp_baix{
+	margin-bottom: 4em;
+}
+.esp_cim{
+	margin-top: 4em;
+}
+.esp{
+	margin-top: 4em;
 	margin-bottom: 4em;
 }
 
