@@ -289,7 +289,7 @@ ul.contact li a
 ul.contact li a:before
 {
 	display: inline-block;
-	background: #1CA72C;
+	background: rgba(95, 116, 15, 0.904);
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -331,7 +331,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	padding: 1.3em 3em;
-	background: #1CA72C;
+	background: rgba(95, 116, 15, 0.904);
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
@@ -479,7 +479,7 @@ ul.contact li a.icon-rss:before
 	#menu
 	{
 		margin: 0px auto;
-		background-color: #1CA72C;
+		background-color: rgba(95, 116, 15, 0.904);
 		padding: 0.1em;
 	}
 	
@@ -504,7 +504,8 @@ ul.contact li a.icon-rss:before
 		font-weight: 600;
 		text-transform: uppercase;
 		outline: 0;
-		color: #FFF;
+		color: white;
+		text-shadow: 1px 2px black;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -1046,7 +1047,7 @@ ul.contact li a.icon-rss:before
 	width: 120px;
 	height: 80px;
 	line-height: 80px;
-	background: #1CA72C;
+	background:rgba(95, 116, 15, 0.904);
 	position: relative;
 	text-align: center;
 	color: #FFF;
@@ -1201,8 +1202,8 @@ ul.contact li a.icon-rss:before
 
 .largura{
 	width: 30%;
-	text-align: center;
-	margin-left: 35%;
+	text-align:center;
+	margin-left: 5%;
 }
 
 
@@ -1237,6 +1238,25 @@ ul.contact li a.icon-rss:before
 	overflow: hidden;
 	text-align: center;
 }
+
+
+
+
+.corpo {
+	width: 90%;
+	margin: auto;
+  }
+  
+  .conteudo {
+  }
+    
+  .quemsomos {
+	float: left;
+	width: 30%;
+	margin-left: 2em;
+	text-align: justify;
+  }
+
 /*********************************************************************************/
 /* efeito foto escrito                                                      */
 /*********************************************************************************/
@@ -1287,6 +1307,7 @@ ul.contact li a.icon-rss:before
 	font-size: 30px;
 	font-weight: bold;
 	font-family: sans-serif;
+	text-shadow: 1px 2px black;
 		
 }
 
@@ -1309,7 +1330,7 @@ ul.contact li a.icon-rss:before
     -webkit-text-stroke-color: #000; /* cor da borda */
 }
 .marcatexto {
-	box-shadow: 15px 0 0 0 #1CA72C, -5px 0 0 0 #1CA72C;
+	box-shadow: 15px 0 0 0 #1CA72C, -5px 0 0 0 rgba(95, 116, 15, 0.904);
 	background: #1CA72C;
 	display: inline;
 	padding: 5px 0 !important;
@@ -1327,7 +1348,7 @@ ul.contact li a.icon-rss:before
     position: absolute;
     opacity: 0;
     transition:all .3s ease;
-    background-color: #1CA72C;
+    background-color: rgba(95, 116, 15, 0.904);
 }
 .containerr:hover .overlay,.containerr:hover .overlayFade {
     opacity: 1;

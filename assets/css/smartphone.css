@@ -357,7 +357,7 @@ ul.contact li a.icon-rss:before
 {
 	display: inline-block;
 	padding: 1.3em 3em;
-	background: #1CA72C;
+	background: rgba(95, 116, 15, 0.904);
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
@@ -418,7 +418,7 @@ ul.contact li a.icon-rss:before
 	{
 		overflow: hidden;
 		padding: 5em 0em 0em 0em;
-		background: #1CA72C url(images/overlay.png) repeat;
+		background: rgba(95, 116, 15, 0.904) url(images/overlay.png) repeat;
 	}
 
 	#header
@@ -494,7 +494,7 @@ ul.contact li a.icon-rss:before
 min-width: 300px;
 max-width: 640px;
 width: 100%;
-background-color: #1CA72C;
+background-color: rgba(95, 116, 15, 0.904);
 margin-top: 1em;
 text-align: center;
 
@@ -508,7 +508,9 @@ text-align: center;
 	text-align: center;
 	margin: 0px auto;
 	
-	background-color: #1CA72C;
+	background-color: rgba(95, 116, 15, 0.904);
+
+	text-shadow: 1px 2px black;
 }
 
 #menu ul
@@ -699,7 +701,7 @@ text-align: center;
 {
 	overflow: hidden;
 	padding-top: 1em;
-	border-top: 1px solid #1CA72C;
+	border-top: 1px solid rgba(95, 116, 15, 0.904);
 }
 
 #copyright p
@@ -738,14 +740,11 @@ text-align: center;
 
 #featured-wrapper
 {
-	overflow: scroll;
-	padding: 3em 30px 3em 30px;
 	background: #FFF;
 	text-align: center;
 	min-width: 300px;
 	max-width: 640px;
 	width: 100%;
-	text-align: center;
 }
 
 #featured-wrapper2
@@ -870,13 +869,9 @@ text-align: center;
 	position: relative;
 }
 
-#slider .button
-{
-}
 
-#slider .button:hover
-{
-}
+
+
 
 #slider .viewer
 {
@@ -992,6 +987,7 @@ text-align: center;
 	overflow: hidden;
 	padding: 7em 0em;
 	color: #FFF;
+	
 }
 
 
@@ -1000,6 +996,8 @@ text-align: center;
 	font-size: 2em;
 	font-weight: 300;
 	color: #FFF;
+
+	text-shadow: 1px 2px black;
 }
 
 #footer .title .byline
@@ -1009,6 +1007,8 @@ text-align: center;
 	text-transform: uppercase;
 	font-size: 0.80em;
 	color: #FFF;
+
+	text-shadow: 1px 2px black;
 }
 
 #footer .column1,
@@ -1036,8 +1036,7 @@ text-align: center;
 {
 	min-width: 300px;
 	max-width: 640px;
-	width: 10%;
-		overflow: hidden;
+	overflow: hidden;
 
 }
 
@@ -1075,9 +1074,7 @@ text-align: center;
 	padding: 0em 10em;
 }
 
-.extra2  .ebox1
-{
-}
+
 
 .extra2 .ebox2
 {
@@ -1199,7 +1196,7 @@ text-align: center;
 	margin-left: 4em;
 }
 .margem-esq2{
-	margin-left: 33%;
+	margin-left: 3%;
 }
 
 .margem-bot{
@@ -1225,7 +1222,8 @@ text-align: center;
 	
 	overflow: hidden;
 	background: #FFF;
-	text-align: center;
+	text-align: left;
+	margin-right: 15%;
 }
 
 /*********************************************************************************/
@@ -1303,7 +1301,6 @@ text-align: center;
     width: 200px;
     height: 200px;
 	display: inline-block;
-	overflow: scroll;
 	text-align: center;
 }
 
@@ -1356,6 +1353,8 @@ text-align: center;
 	font-weight: bold;
 	font-family: sans-serif;
 
+	text-shadow: 1px 2px black;
+
 	
 }
 
@@ -1374,8 +1373,8 @@ text-align: center;
 }
 
 .marcatexto {
-	box-shadow: 15px 0 0 0 #1CA72C, -5px 0 0 0 #1CA72C;
-	background: #1CA72C;
+	box-shadow: 15px 0 0 0 rgba(95, 116, 15, 0.904), -5px 0 0 0 rgba(95, 116, 15, 0.904);
+	background: rgba(95, 116, 15, 0.904);
 	display: inline;
 	padding: 5px 0 !important;
 	position: relative;
@@ -1644,3 +1643,17 @@ form {
 	margin-left: 15%;
 
 }
+
+
+.corpo {
+	width: 90%;
+	margin: auto;
+  }
+  
+  
+    
+  .quemsomos {
+	float: left;
+	width: 80%;
+	text-align: justify;
+  }
