@@ -32,12 +32,7 @@
 		</div>
     </div>
 
-    <!-- Scripts -->
-			<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
-			<script type="text/javascript" src="./assets/js/browser.min.js"></script>
-			<script type="text/javascript" src="./assets/js/breakpoints.min.js"></script>
-			<script type="text/javascript" src="./assets/js/util.js"></script>
-			<script type="text/javascript" src="./assets/js/main.js"></script>
+    
 
 <div id="wrapper">
 <div class="central">
@@ -47,25 +42,26 @@
                 <div class="inner">   
                    
         
-                    <form action="/cgi-bin/FormMail.pl" method="post">
+                    <form action="https://formspree.io/colveunicamp@gmail.com" method="POST">
         
-                        <input type="hidden" name="recipient" value="colveunicamp@gmail.com">
+                     
                         <div class="field half first">
                             <label for="name">Nome</label>
                             <input name="name" id="name" type="text" placeholder="Nome">
                         </div>
                         <div class="field half">
-                            <label for="email">E-mail</label>
-                            <input name="email" id="email" type="email" placeholder="E-mail">
+                            <label for="_replyto">E-mail</label>
+                            <input name="_replyto" id="email" type="email" placeholder="E-mail">
                         </div>
                         <div class="field">
                             <label for="message">Mensagem</label>
                             <textarea name="message" id="message" rows="6" placeholder="Mensagem"></textarea>
                         </div>
                         <ul class="actions">
-                            <div class="zoom"><li><a class="textu3 a-responsive"><input value="Enviar" class="button alt" type="submit"></a></li></div>
+                            <div class="zoom"><li><a class="textu3 a-responsive"><input value="Enviar" class="button alt" type="submit" value = "Send"></a></li></div>
                         </ul>
                     </form>
+                    
                 </div>
                  
             </section>
