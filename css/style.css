@@ -774,20 +774,20 @@
 	#copyright {
 		text-transform: uppercase;
 		text-align: center;
-		padding: 3em 0em 3em 0em;
+		padding: 1em 0em 3em 0em;
 		background-position-y: -1800px;	
-		background:white ;
+		background:#222222 ;
 		background-size: cover;	
-		height: 4em;	
+		height: 2em;	
 	}
 
 		#copyright a {
-			text-decoration: black;
-			color: black;
+			text-decoration: white;
+			color: white;
 		}
 
 	.copy{
-		color: black;
+		color: white;
 		font-weight: bold;
 		
 	}
