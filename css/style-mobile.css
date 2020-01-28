@@ -1,0 +1,63 @@
+/*
+	Solarize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Basic */
+
+	header.major h2 {
+		font-size: 1.6em;
+	}
+
+	header.major .byline {
+		font-size: 1.1em;
+	}
+
+	.wrapper {
+		padding: 4em 0em 2em 0em;
+	}
+
+		.wrapper.style2 {
+			text-align: justify;
+			padding-bottom: 5em;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+
+		.wrapper.style4 p {
+			margin-bottom: 1em;
+		}
+
+		.wrapper.style5 img {
+			width: 70%;
+		}
+
+		.wrapper.style6 img {
+			width: 70%;
+		}
+
+
+/* Lists */
+
+	ul.icons li a {
+		font-size: 1.6em;
+	}
+
+/* Main */
+
+	#main #sidebar .major h2 {
+		font-size: 1.6em;
+	}
+
+
+	.objectImage {
+		width: 10em;
+		height: 10em;
+		object-fit: cover;
+		object-position: center;
+	}
+	.imagemNormal {
+		width: 600px;
+		height: 120px;
+	}
